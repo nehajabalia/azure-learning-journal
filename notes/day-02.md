@@ -24,3 +24,9 @@
 1. Public vs private: private is only used inside a network, public is reachable on the internet.
 2. A /24 holds 256 addresses (254 usable on a normal network).
 3. DNS translates names into IP addresses.
+
+## Private IP ranges
+- 10.0.0.0 to 10.255.255.255 (10.x.x.x), used in big networks and a lot in Azure
+- 172.16.0.0 to 172.31.255.255 (second number must be 16 to 31)---medium networks
+- 192.168.0.0 to 192.168.255.255 (192.168.x.x), common in home networks
+- Anything else is public, for example 192.178.x.x is public, not private
